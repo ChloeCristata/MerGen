@@ -6,9 +6,7 @@
             "Newleaf",
             "Greenleaf",
             "Leaf-fall",
-            "Leaf-bare",
-            "scar",
-            "SIDE"
+            "Leaf-bare"
         ],
         "event_text": "m_c couldn't help but try to show off by climbing the tallest tree they could find. Their plan backfired when they fell out of the tree.",
         "history_text": [
@@ -22,7 +20,7 @@
         "other_cat_skill": null
     },
     {
-        "injury": "water in their lungs",
+        "injury": "sand in their gills",
         "camp": "any",
         "tags": [
             "Newleaf",
@@ -38,10 +36,10 @@
             "respect",
             "neg_dislike"
         ],
-        "event_text": "m_c went out of camp alone to practice swimming in the ocean, unfortunately their inexperience led to them being swept up by a riptide. r_c heard their cries and saved them, but m_c almost drowned.",
+        "event_text": "m_c went out of camp alone to practice swimming in the ocean, unfortunately their inexperience led to them being swept up by a riptide. r_c heard their cries and saved them, but m_c inhaled a lot of sand.",
         "history_text": [
             null,
-            "m_c died from watery lungs after nearly drowning in the ocean",
+            "m_c died from sand in their gills after being swept up by a riptide",
             null
         ],
         "cat_trait": ["adventurous", "ambitious", "bold", "childish", "confident", "daring", "playful", "troublesome"],

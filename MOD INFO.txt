@@ -1,0 +1,25 @@
+ClanGen MerCat Sprites AKA MerGen
+(Mod by Cristata)
+________________________________________
+MerCats are an odd species: 
+feline yet aquatic, with fins, gills, and tails that aren’t those of a fish, a shark, or a dolphin, but rather something in between. 
+They have fur like their land-dwelling counterparts—except theirs is adapted to their environment, 
+being largely water-resistant and thinning out along the tail.
+________________________________________
+Additional credit to:
+MilqStar and their own Sharkits which inspired this mod!
+SharkSpirit for the adorable guppy pelt that they made!
+And FloralFever for letting me use and tweak their bandanas!
+________________________________________
+INSTALLATION:
+Step One: Download MerGen! ...If you're reading this, then you already did that. Good job!
+Step Two: Go through the exact same process as you would for setting up the development version of the normal unmodded game 
+(aka install Thonny and the required packages, all that jazz). If you don't know how to do that, check the #faq in the ClanGen server.
+Step Three: Run the main script (main.py) found in your MerGen folder using Thonny.
+Step Four: ???
+Step Five: PROFIT
+________________________________________
+
+Feel free to modify these sprites however you want (within reason)! 
+Just make sure to give me credit for the originals. I’d love to see what people come up with!
+And if anyone wants to make stories or videos featuring my mod at all, one, I'd be flattered, two, PLEASE SHARE????

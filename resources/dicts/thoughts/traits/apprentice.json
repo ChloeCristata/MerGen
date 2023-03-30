@@ -22,6 +22,7 @@
         "Is hoping their warrior name will end in -claw",
         "Pesters their mentor about doing battle training",
         "Is thinking about murder",
+        "Prowls like a shark through the shadows",
         "Draws blood during their battle training"
     ],
     "bold": [
@@ -41,6 +42,7 @@
     ],
     "childish": [],
     "cold": [
+        "Prowls like a shark through the shadows",
         "Is hoping their warrior name will end in -claw"
     ],
     "compassionate": [],
@@ -102,7 +104,9 @@
     "shameless": [
         "Was found napping in the warrior's den!"
     ],
-    "sneaky": [],
+    "sneaky": [
+        "Prowls like a shark through the shadows"
+    ],
     "strange": [],
     "strict": [
         "Is busy chastising fellow apprentices... but no cat is sure what for",
@@ -117,6 +121,7 @@
         "Got in trouble for shirking their training the other day"
     ],
     "vengeful": [
+        "Prowls like a shark through the shadows",
         "Snaps at another apprentice"
     ],
     "wise": [

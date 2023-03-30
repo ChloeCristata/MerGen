@@ -132,8 +132,8 @@
     {
         "camp": "any",
         "tags": ["other_cat", "Newleaf", "Greenleaf", "Leaf-fall", "Leaf-bare", "rc_to_mc", "platonic", "trust", "respect", "neg_dislike", "comfort"],
-        "death_text": "m_c lost a life saving r_c from drowning.",
-        "history_text": [null, "saved r_c from drowning"],
+        "death_text": "m_c lost a life saving r_c from being swept away.",
+        "history_text": [null, "saved r_c from being swept away"],
         "cat_trait": ["altruistic", "bold", "compassionate", "ambitious", "daring", "confident", "fierce", "loyal", "loving", "empathetic", "responsible"],
         "cat_skill": null,
         "other_cat_trait": null,

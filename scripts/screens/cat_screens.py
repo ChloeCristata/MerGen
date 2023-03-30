@@ -39,7 +39,8 @@ def accessory_display_name(cat):
         collar_colors = {'crimson': 'red', 'blue': 'blue', 'yellow': 'yellow', 'cyan': 'cyan', 
                          'red': 'orange', 'lime': 'lime', 'green': 'green', 'rainbow': 'rainbow', 
                          'black': 'black', 'spikes': 'spiky', 'white': 'white', 'pink': 'pink', 
-                         'purple': 'purple', 'multi': 'multi', 'indigo': 'indigo'}
+                         'purple': 'purple', 'multi': 'multi', 'indigo': 'indigo', 'striped': 'striped',
+                         'magenta': 'magenta', 'gull': 'gull', 'flamingo': 'flamingo'}
         collar_color = next((color for color in collar_colors if acc_display.startswith(color)), None)
 
         if collar_color:
@@ -47,6 +48,12 @@ def accessory_display_name(cat):
                 acc_display = collar_colors[collar_color] + ' bow'
             elif acc_display.endswith('bell'):
                 acc_display = collar_colors[collar_color] + ' bell collar'
+            elif acc_display.endswith('hat'):
+                acc_display = collar_colors[collar_color] + ' feathered pirate hat'
+            elif acc_display.endswith('bandana'):
+                acc_display = collar_colors[collar_color] + ' bandana'
+            elif acc_display.endswith('skull'):
+                acc_display = collar_colors[collar_color] + ' bandana and skull mask'
             else:
                 acc_display = collar_colors[collar_color] + ' collar'
 

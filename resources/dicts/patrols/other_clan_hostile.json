@@ -120,10 +120,10 @@
         "p_l is about to step over the border when a hiss stops them in their tracks. A o_c_n warrior bounds into view, bristling with rage. They quickly explain that they're the medicine cat and the warrior code allows them to cross the border and assure that they only need a few berries for some sick Clanmates. The warrior looks torn, but agrees to this."
     ],
     "fail_text": [
-        "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a medicine cat. One of the warriors snarls that they won't tolerate c_n cats on their land, medicine cat or not, and p_l needs to leave before they make them. They oblige quickly.",
+        "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is heading their way. As the patrol approaches, they blurt out that they're a medicine cat. One of the warriors snarls that they won't tolerate c_n cats on their land, medicine cat or not, and p_l needs to leave before they make them. They oblige quickly.",
         null,
         null,
-        "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is running their way. As the patrol approaches, they blurt out that they're a medicine cat. The warriors either don't hear them or don't care and they take multiple swipes at the medicine cat before they can get away."
+        "p_l starts to step over the border but a hiss stops them in their tracks. A o_c_n patrol is heading their way. As the patrol approaches, they blurt out that they're a medicine cat. The warriors either don't hear them or don't care and they take multiple swipes at the medicine cat before they can get away."
     ],
     "win_skills": ["excellent mediator"],
 
@@ -150,8 +150,8 @@
     "fail_text": [
         "Your patrol decides to follow the scent, but only ends up walking in circles. Either the trespasser is good at concealing their trail or your patrol just needs to work on their tracking skills. It doesn't matter now, the whole day has been wasted. p_l decides that they should just return to camp and report the strange scent.",
         "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice. The young cat has a freshly killed rabbit in their mouth and s_c yowls in anger, not hesitating before attacking the apprentice. The o_c_n cat is driven off of your territory and the rabbit brought back to camp for your own cats.",
-        "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can run and the rest of the patrol scatters in fear.",
-        "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on the patrol. r_c is caught in its jaws but manages to tear themself free and sprint away."
+        "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can escape and the rest of the patrol scatters in fear.",
+        "Your patrol follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on the patrol. r_c is caught in its jaws but manages to tear themself free and races away."
     ],
     "win_skills": ["good speaker", "great speaker", "excellent speaker"],
     "win_trait": ["altruistic", "compassionate", "empathetic", "calm"],
@@ -184,8 +184,8 @@
     "fail_text": [
         "p_l decides to follow the scent, but only ends up walking in circles. Either the trespasser is good at concealing their trail or p_l just needs to work on their tracking skills. It doesn't matter now, the whole day has been wasted. p_l decides that they should just return to camp and report the strange scent.",
         "s_c is relentless in tracking the scent and at the end of it finds a o_c_n apprentice.  The young cat has a freshly killed rabbit in their mouth and s_c yowls in anger, not hesitating before attacking the apprentice. The o_c_n cat is driven off of your territory and the rabbit brought back to camp for your own cats.",
-        "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can even run.",
-        "p_l follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on r_c. r_c is caught in its jaws but manages to tear themself free and sprint away."
+        "r_c follows the scent to a o_c_n cat taking refuge up a tree. The cat looks scared and only stares down at them before a large dog suddenly descends upon your patrol. r_c is killed before they can flee.",
+        "p_l follows the scent to a o_c_n cat taking refuge up a tree. The cat snarls down at them, a gleam in their eye, before a large dog comes crashing down on r_c. r_c is caught in its jaws but manages to tear themself free and races away."
     ],
     "win_skills": ["good speaker", "great speaker", "excellent speaker"],
     "win_trait": ["altruistic", "compassionate", "empathetic", "calm"],

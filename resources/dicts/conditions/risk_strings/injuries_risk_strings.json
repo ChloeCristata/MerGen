@@ -135,10 +135,10 @@
 
         ]
     },
-    "water in their lungs": {
+    "sand in their gills": {
         "running nose": [
-            "Some of the water m_c inhaled appears to be draining from their nose, as well as coming up in hacking coughs. r_c puts them on nest rest to help them recover.",
-            "Along with a bit of coughing, m_c has developed a runny nose from the water in their lungs."
+            "The sand m_c inhaled appears to be causing issues with their breathing: water and sand runs from their nose, as well as coming up in hacking coughs. r_c puts them on nest rest to help them recover.",
+            "Along with a bit of coughing, m_c has developed a runny nose from the sand in their gills."
 
         ],
         "whitecough": [

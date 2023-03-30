@@ -60,7 +60,7 @@
         "other_cat_skill": null
     },
     {
-        "injury": "water in their lungs",
+        "injury": "sand in their gills",
         "camp": "camp2",
         "tags": [
             "other_cat_kit",
@@ -70,10 +70,10 @@
             "rc_to_mc",
             "neg_respect"
         ],
-        "event_text": "r_c dares m_c to try and swim out of camp and m_c can't possibly refuse the challenge. They don't make it far, however, before their meager swimming skills fail them and they nearly drown before an adult spots them and comes to the rescue.",
+        "event_text": "r_c dares m_c to try and swim out of camp and m_c can't possibly refuse the challenge. They don't make it far, however, before their meager swimming skills fail them and they end up inhaling churned up sand before an adult spots them and comes to the rescue.",
         "history_text": [
             null,
-            "m_c died from watery lungs after trying to swim out of camp",
+            "m_c died from sand in their gills after trying to swim out of camp",
             null
         ],
         "cat_trait": ["daring", "impulsive", "attention-seeker"],
@@ -202,9 +202,7 @@
         "tags": [
             "Greenleaf",
             "Newleaf",
-            "Leaf-fall",
-            "scar",
-            "SNAKE"
+            "Leaf-fall"
         ],
         "event_text": "m_c found a hole in the rocks and, curious as all kits are, stuck their paw inside. The whole camp comes running when they screech in pain. It seems a snake was living in that hole.",
         "history_text": [

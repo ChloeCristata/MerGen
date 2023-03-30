@@ -40,6 +40,21 @@ class Tabby():
             return f"white and {self.colour}{self.length} tabby"
         else:
             return self.colour + self.length + " tabby"
+        
+class Tropical():
+    name = "Tropical"
+    sprites = {1: 'tropical', 2: 'white'}
+
+    def __init__(self, colour, white, length):
+        self.white = white  # boolean; does cat have white on it or no
+        self.colour = colour
+        self.length = length
+
+    def __repr__(self):
+        if self.white:
+            return f"white and {self.colour}{self.length} tropical"
+        else:
+            return self.colour + self.length + " tropical"
 
 class Marbled():
     name = "Marbled"
@@ -247,7 +262,7 @@ tortiepatterns = ['tortiesolid', 'tortietabby', 'tortiebengal', 'tortiemarbled',
 patch_colours = ['PALEONE', 'PALETWO', 'PALETHREE', 'PALEFOUR', 'GOLDONE', 'GOLDTWO',
     'GOLDTHREE', 'GOLDFOUR', 'GINGERONE', 'GINGERTWO', 'GINGERTHREE', 'GINGERFOUR',
     'DARKONE', 'DARKTWO', 'DARKTHREE', 'DARKFOUR', 'CREAMONE', 'CREAMTWO', 'CREAMTHREE', 'CREAMFOUR']
-tortiebases = ['single', 'tabby', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
+tortiebases = ['single', 'tabby', 'tropical', 'bengal', 'marbled', 'ticked', 'smoke', 'rosette', 'speckled', 'mackerel',
     'classic', 'sokoke', 'agouti', 'singlestripe']
 tortiecolours = ["SILVER", "GREY", "DARKGREY", "BLACK", "GHOST", "LIGHTBROWN", "BROWN", "DARKBROWN"]
 
@@ -281,12 +296,21 @@ collars = [
     "PURPLEBOW", "MULTIBOW", "INDIGOBOW", "CRIMSONNYLON", "BLUENYLON", "YELLOWNYLON", "CYANNYLON", 
     "REDNYLON", "LIMENYLON", "GREENNYLON", "RAINBOWNYLON",
     "BLACKNYLON", "SPIKESNYLON", "WHITENYLON", "PINKNYLON", "PURPLENYLON", "MULTINYLON", "INDIGONYLON",
+    "CRIMSONHAT", "BLUEHAT", "YELLOWHAT", "CYANHAT", 
+    "REDHAT", "LIMEHAT", "GREENHAT", "RAINBOWHAT",
+    "BLACKHAT", "GULLHAT", "WHITEHAT", "PINKHAT", "PURPLEHAT", "FLAMINGOHAT", "INDIGOHAT",
+    "CRIMSONBANDANA", "BLUEBANDANA", "YELLOWBANDANA", "CYANBANDANA", 
+    "REDBANDANA", "LIMEBANDANA", "GREENBANDANA", "RAINBOWBANDANA",
+    "BLACKBANDANA", "STRIPEDBANDANA", "WHITEBANDANA", "MAGENTABANDANA", "PURPLEBANDANA", "PINKBANDANA", "INDIGOBANDANA",
+    "CRIMSONSKULL", "BLUESKULL", "YELLOWSKULL", "CYANSKULL", 
+    "REDSKULL", "LIMESKULL", "GREENSKULL", "RAINBOWSKULL",
+    "BLACKSKULL", "STRIPEDSKULL", "WHITESKULL", "MAGENTASKULL", "PURPLESKULL", "PINKSKULL", "INDIGOSKULL",
 ]
 
 tabbies = ["Tabby", "Ticked", "Mackerel", "Classic", "Sokoke", "Agouti"]
 spotted = ["Speckled", "Rosette"]
 plain = ["SingleColour", "TwoColour", "Smoke", "Singlestripe"]
-exotic = ["Bengal", "Marbled"]
+exotic = ["Bengal", "Marbled", "Tropical"]
 torties = ["Tortie", "Calico"]
 pelt_categories = [tabbies, spotted, plain, exotic, torties]
 
@@ -357,6 +381,13 @@ def choose_pelt(colour=None, white=None, pelt=None, length=None, category=None, 
             return Tabby(choice(pelt_colours), white, length)
         else:
             return Tabby(colour, white, length)
+    elif pelt == 'Tropical':
+        if colour is None and white is None:
+            return Tropical(choice(pelt_colours), choice([False, True]), length)
+        elif colour is None:
+            return Tropical(choice(pelt_colours), white, length)
+        else:
+            return Tropical(colour, white, length)
     elif pelt == 'Marbled':
         if colour is None and white is None:
             return Marbled(choice(pelt_colours), choice([False, True]), length)
@@ -468,6 +499,8 @@ def describe_color(pelt, tortiecolour, tortiepattern, white_patches):
             color_name = 'dark brown'
         if pelt.name == "Tabby":
             color_name = color_name + ' tabby'
+        if pelt.name == "Tropical":
+            color_name = color_name + ' tropically patterned'
         elif pelt.name == "Speckled":
             color_name = color_name + ' speckled'
         elif pelt.name == "Bengal":
@@ -475,7 +508,7 @@ def describe_color(pelt, tortiecolour, tortiepattern, white_patches):
         elif pelt.name == "Marbled":
             color_name = color_name + ' marbled tabby'
         elif pelt.name == "Rosette":
-            color_name = color_name + ' rosetted'
+            color_name = color_name + ' seal speckled'
         elif pelt.name == "Ticked":
             color_name = color_name + ' ticked tabby'
         elif pelt.name == "Smoke":

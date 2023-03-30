@@ -60,7 +60,7 @@
         "other_cat_skill": null
     },
     {
-        "injury": "water in their lungs",
+        "injury": "sand in their gills",
         "camp": "any",
         "tags": [
             "Newleaf",
@@ -68,10 +68,10 @@
             "Leaf-fall",
             "Leaf-bare"
         ],
-        "event_text": "m_c was dragged out into the ocean by the tide and inhaled a lot of water before managing to get out, they've been hacking ever since.",
+        "event_text": "m_c was dragged out into the ocean by the tide and inhaled a lot of sand before managing to get out, they've been hacking ever since.",
         "history_text": [
             null,
-            "m_c died after they were dragged into the ocean and inhaled too much water.",
+            "m_c died after they were dragged into the ocean and inhaled too much sand.",
             "were dragged out into the ocean."
         ],
         "cat_trait": null,

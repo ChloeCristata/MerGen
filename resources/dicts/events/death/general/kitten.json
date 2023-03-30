@@ -22,8 +22,8 @@
     {
         "camp": "any",
         "tags": ["Newleaf", "Greenleaf", "Leaf-fall", "Leaf-bare"],
-        "death_text": "m_c fell into a river and drowned.",
-        "history_text": ["m_c fell into a river and drowned.", null],
+        "death_text": "m_c fell into a river and died to the turbulent current and sharp rocks.",
+        "history_text": ["m_c fell into a river and died to the turbulent current and sharp rocks.", null],
         "cat_trait": ["daring", "impulsive"],
         "cat_skill": null,
         "other_cat_trait": null,

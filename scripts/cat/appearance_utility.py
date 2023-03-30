@@ -544,6 +544,8 @@ def init_pattern(cat):
             cat.tortiebase = choice(tortiebases)
         if cat.tortiebase == 'tabby':
             cat.tortiepattern = 'tortietabby'
+        if cat.tortiebase == 'tropical':
+            cat.tortiepattern = 'tortierosette'
         elif cat.tortiebase == 'bengal':
             cat.tortiepattern = 'tortiebengal'
         elif cat.tortiebase == 'marbled':

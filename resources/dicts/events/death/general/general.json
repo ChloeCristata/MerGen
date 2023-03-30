@@ -203,8 +203,8 @@
     {
         "camp": "any",
         "tags": ["multi_death", "other_cat", "other_cat_adult", "Newleaf", "Greenleaf", "Leaf-fall", "Leaf-bare"],
-        "death_text": "m_c fell into the river and r_c drowned alongside m_c while trying to rescue them.",
-        "history_text": ["m_c died from drowning.", "died from drowning"],
+        "death_text": "m_c fell into an abnormally strong current and r_c died alongside m_c while trying to rescue them.",
+        "history_text": ["m_c died from an accident in the water.", "died from an accident in the water"],
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": ["altruistic", "bold", "ambitious", "compassionate", "daring", "confident", "fierce", "loyal", "loving", "empathetic", "responsible"],

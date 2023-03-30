@@ -2,8 +2,8 @@
     {
         "camp": "any",
         "tags": ["Greenleaf", "Newleaf", "Leaf-fall"],
-        "death_text": "m_c lost a life after falling into a river.",
-        "history_text": [null, "fell into a river"],
+        "death_text": "m_c lost a life after falling into a river and hitting their head on a rock.",
+        "history_text": [null, "fell into a river and hit their head"],
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,
@@ -74,8 +74,8 @@
     {
         "camp": "any",
         "tags": ["all_lives", "Newleaf", "Greenleaf", "Leaf-fall", "no_body"],
-        "death_text": "m_c fell into a river and was swept away by the current, never to be seen again.",
-        "history_text": [null, "were swept away by the river"],
+        "death_text": "m_c fell into a river and was swept away by the abnormally strong current, never to be seen again.",
+        "history_text": [null, "were swept away by a raging river"],
         "cat_trait": null,
         "cat_skill": null,
         "other_cat_trait": null,

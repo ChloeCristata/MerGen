@@ -150,7 +150,7 @@
     "exp": 10,
     "success_text": [
             "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds themself nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. p_l brings the queen back to camp, where the Clan can assist.",
-            "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. r_c sprints back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help the queen joins c_n with their kits."
+            "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. r_c races back to camp to find help while p_l tries to make the queen eat some strengthening herbs. Thankful for the help the queen joins c_n with their kits."
     ],
     "fail_text": [
             "p_l follows the strange sounds on the wind and finds the bodies of a unknown queen with their kits beside them, slowly going cold. r_c goes back to camp to find help bringing their bodies back to camp to pay respects."
@@ -238,7 +238,7 @@
     "exp": 10,
     "success_text": [
             "The sounds die away and then start up again in strange, unpredictable intervals. Investigating, p_l suddenly finds themself nose to nose with a panting, bleeding queen, one desperately trying to keep their newborn litter quiet. They run for home, desperate to bring help.",
-            "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. Panicking, they ask the queen to hold on just a little longer while they fetch help, then sprint for home, yowling in case any patrol is nearby to assist."
+            "p_l follows the strange sounds on the wind and finds a struggling queen with their newborn kits clinging to them. Panicking, they ask the queen to hold on just a little longer while they fetch help, then races for home, yowling in case any patrol is nearby to assist."
     ],
     "fail_text": [
             "p_l follows the strange sounds on the wind and finds the bodies of an unknown queen with their kits beside them, slowly going cold. They desperately try to save a kitten, but can't, and their mentor finds them there sobbing hours later."
@@ -283,7 +283,7 @@
     "success_text": [
         "It's just an odd loner singing to themselves. r_c greets them, and as the loner's home isn't on c_n territory, it's a polite interaction without any hostility. The older cat looks like they could use a meal, and p_l invites them to c_n's camp. The loner agrees.",
         "It's just an odd loner singing to themselves. When they see r_c they invite them to sing along, but instead, r_c offers the strange, battered-looking cat an introduction to c_n. It's got to be far less lonely than their current life.",
-        "s_c walks into an ambush set by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for their life to get back to camp. ",
+        "s_c walks into an ambush set by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, fleeing for their life to get back to camp. ",
         "s_c has a bad feeling about this. At first it seems like they're being too cautious - but then they pick up on the scent of strange cats lingering around the Twoleg nest. Forewarned, s_c retreats to safety."
     ],
     "fail_text": [
@@ -353,7 +353,7 @@
     ],
     "fail_text": [
         "p_l pads closer to the bush, intent on finding the source of the noise, only to come face to face with a skunk! The poor cat ends up stinking for days after the unfortunate incident.",
-        "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. They quickly regret their impulsivity, however, when an angry raccoon bursts from the bush! s_c gets quite the scare, but thankfully the raccoon only wanted to get away from them and quickly runs off back into the undergrowth.",
+        "s_c doesn't even hesitate before splitting from the patrol to check on the source of the noise. They quickly regret their impulsivity, however, when an angry raccoon bursts from the bush! s_c gets quite the scare, but thankfully the raccoon only wanted to get away from them and quickly rushes off back into the undergrowth.",
         null,
         "p_l takes the lead in checking the source of the noise and comes face to face with a rogue hiding in the bush! The rogue takes a swipe at p_l, but doesn't get much damage in before p_l retaliates and chases the intruder out c_n territory."
     ],
@@ -412,7 +412,7 @@
     "success_text": [
             "It's just an odd loner singing to themselves. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility. The older cat looks like they could use a meal, and p_l invites them to c_n's camp. The loner agrees.",
             "It's just an odd loner singing to themselves. When they see the patrol they invite them to sing too, but instead, p_l offers the somewhat battered looking and strange cat an introduction to c_n. It's got to be far less lonely than their current life.",
-            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for their life.",
+            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, fleeing for their life.",
             "s_c has a bad feeling about this. And maybe they're being too cautious - but then they pick up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety."
     ],
     "fail_text": [

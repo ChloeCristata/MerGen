@@ -31,17 +31,22 @@ class Name():
         "scratch", "seed", "shade", "shadow", "shell", "shine", "sight", "skip", "sky", "slip", "snout", "snow", "song", "spark",
         "speck", "speckle", "spirit", "splash", "spot", "spots", "spring", "stalk", "stem", "step", "stone", "storm", "streak",
         "stream", "strike", "stripe", "sun", "swipe", "swoop", "talon", "tooth", "thistle", "thorn", "throat", "toe", "tree", 
-        "throat", "watcher", "water", "wave", "whisper", "whistle", "willow", "wind", "wing", "wish"
+        "throat", "watcher", "water", "wave", "whisper", "whistle", "willow", "wind", "wing", "wish", "snapper", "worm", "eddy", "dolphin",
+        "whale", "reef", "kelp", "shark", "ray", "trench", "salt", "salmon", "surf", "ocean", "beach", "clam", "mollusk", "orca",
+        "salamander", "hibiscus", "manatee", "squid", "serpent", "scale", "dive", "tuna", "anchovy", "guppy", "chub", "octopus",
+        "slug", "scallop", "shrimp", "prawn", "oyster", "crocodile", "alligator", "tern", "puffin", "pelican", "tide", "penguin",
+        "narwhal", "walrus", "blubber", "lobster", "krill", "conch", "sponge", "anemone", "urchin", "spine", "iguana", "frill", "seal"
     ]
 
     pelt_suffixes = {
         'TwoColour': ['patch', 'spot', 'splash', 'patch', 'spots'],
         'Tabby': ['stripe', 'feather', 'leaf', 'stripe', 'shade'],
+        'Tropical': ['fish', 'shark', 'whale', 'mantis', 'tang', 'guppy'],
         'Marbled': ['stripe', 'feather', 'leaf', 'stripe', 'shade'],
-        'Speckled': ['dapple', 'speckle', 'spot', 'speck', 'freckle'],
-        'Bengal': ['dapple', 'speckle', 'spots', 'speck', 'freckle'],
+        'Speckled': ['dapple', 'speckle', 'spot', 'speck', 'seal', 'freckle'],
+        'Bengal': ['dapple', 'speckle', 'spots', 'speck', 'seal', 'freckle'],
         'Tortie': ['dapple', 'speckle', 'spot', 'dapple'],
-        'Rosette': ['dapple', 'speckle', 'spots', 'dapple', 'freckle'],
+        'Rosette': ['dapple', 'speckle', 'spots', 'dapple', 'seal', 'freckle'],
         'Calico': ['stripe', 'dapple', 'patch', 'patch'],
         'Smoke': ['fade', 'dusk', 'dawn', 'smoke'],
         'Ticked': ['spots', 'pelt', 'speckle', 'freckle'],
@@ -55,12 +60,12 @@ class Name():
     tortie_pelt_suffixes = {
         'tortiesolid': ['dapple', 'speckle', 'spots', 'splash'],
         'tortietabby': ['stripe', 'feather', 'leaf', 'stripe', 'shade', 'fern'],
-        'tortiebengal': ['dapple', 'speckle', 'spots', 'speck', 'fern', 'freckle'],
+        'tortiebengal': ['dapple', 'speckle', 'spots', 'speck', 'fern', 'seal', 'freckle'],
         'tortiemarbled': ['stripe', 'feather', 'leaf', 'stripe', 'shade', 'fern'],
         'tortieticked': ['spots', 'pelt', 'speckle', 'freckle'],
         'tortiesmoke': ['fade', 'dusk', 'dawn', 'smoke'],
-        'tortierosette': ['dapple', 'speckle', 'spots', 'dapple', 'fern', 'freckle'],
-        'tortiespeckled': ['dapple', 'speckle', 'spot', 'speck', 'freckle'],
+        'tortierosette': ['dapple', 'speckle', 'spots', 'dapple', 'fern', 'seal', 'freckle'],
+        'tortiespeckled': ['dapple', 'speckle', 'spot', 'speck', 'seal', 'freckle'],
         'tortiemackerel': ['stripe', 'feather', 'fern', 'shade'],
         'tortieclassic': ['stripe', 'feather', 'fern'],
         'tortiesokoke': ['stripe', 'feather', 'fern', 'shade', 'dapple'],
@@ -105,6 +110,10 @@ class Name():
         'Thrift', 'Thrush', 'Thunder', 'Thyme', 'Tiger', 'Timber', 'Tiny', 'Tip', 'Toad', 'Torn', 'Trout', 'Tuft', 'Tulip', 
         'Tumble', 'Turtle', 'Vine', 'Vixen', 'Wasp', 'Weasel', 'Web', 'Weed', 'Wet', 'Wheat', 'Whirl', 'Whisker',
         'Whisper', 'Whispering', 'Whistle', 'Whorl', 'Wild', 'Willow', 'Wind', 'Wish', 'Wing', 'Wisteria', 'Wolf', 'Wood', 'Wren', 'Yarrow', 'Yew'
+        'Whale', 'Reef', 'Kelp', 'Shark', 'Salt', 'Salmon', 'Ocean', 'Beach', 'Clam', 'Mollusk', 'Orca',
+        'Snapper', 'Worm', 'Dolphin', 'Salamander', 'Hibiscus', 'Manatee', 'Squid', 'Puffer', 'Serpent', 'Tuna', 'Anchovy',
+        'Slug', 'Scallop', 'Shrimp', 'Prawn', 'Oyster', 'Crocodile', 'Alligator', 'Tern', 'Puffin', 'Pelican', 'Tide', 'Penguin',
+        'Narwhal', 'Walrus', 'Blubber', 'Lobster', 'Krill', 'Conch', 'Sponge', 'Anemone', 'Urchin', 'Iguana', 'Seal', 'Guppy', 'Chub', 'Octopus'
     ]
 
     colour_prefixes = {
@@ -260,7 +269,15 @@ class Name():
         "Union", "Uriel", "Vanilla", "Van Pelt", "Vaxx", "Venture", "Via", "Victor", "Vida", "Viktor", "Vinnie", "Vinyl",
         "Velociraptor", "Violet", "Vivienne", "Void", "Voltage", "Vox", "Virgo", "Wanda", "Warren Peace", "Webby", "Wendy", "Whiskers",
         "Whisper", "Wigglebutt", "Wiggity Wacks", "Windy", "Wishbone", "Wisp", "Wisteria", "Whiz Kid", "Worm", "X'ek",
-        "Xelle", "Yaoyao", "Yen", "Yeza", "Yoshi", "Zelda", "Zim", "Zoe", "Zorro",
+        "Xelle", "Yaoyao", "Yen", "Yeza", "Yoshi", "Zelda", "Zim", "Zoe", "Zorro", "Ariel", "Triton", "Gillbert", "Delphine",
+        "Guppy", "Chips", "Small Fry", "Captain", "Captain Jack", "Jack Sparrow", "Goldeen", "Seaking", "Magikarp", "Gyarados", "Finn",
+        "Finnegan", "Finley", "Tetra", "Wasabi", "Sushi", "Sashimi", "Caviar", "Bait", "Bob", "Eddy", "Atlantis", "Pacifica", "Kraken", "Suds",
+        "Mrs Puff", "Marlin", "Dora", "Nemo", "Sharkira", "Gilligan", "Gillian", "Gilly", "Bermuda", "Jaws", "Cleo", "Rikki", "Emma", "Lewis",
+        "Bella", "Will", "Bubba", "Flipper", "Snapper", "Sprite", "Aquafina", "Tropicana", "Nessie", "Kelpie", "Selkie", "Jelly",
+        "Cantina", "Donald", "Daffy", "Delta", "Barnaby", "Stampy", "Squidy", "Sqaishey", "Moana", "Maui", "Poseidon", "Plankton", "Fanta",
+        "Popsicle", "Phill", "Phillis", "Wallaby", "Sidney", "Leviathan", "Goggles", "Matey", "Hydra", "Squidward", "Rosa", "Geronimo", "Toilet",
+        "Walter", "Estrella", "Scuba", "Marina", "Akira", "Soup", "Sulani", "Goldie", "Mullet", "Red Mullet", "Chum", "Booby", "Nautilus", "Lord",
+        "Blob", "Lapis Lazuli", "Gorgon", "Medusa", "Albatross"
         ]
     if os.path.exists('saves/prefixlist.txt'):
         with open('saves/prefixlist.txt', 'r') as read_file:

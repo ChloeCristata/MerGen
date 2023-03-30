@@ -250,17 +250,75 @@ class Sprites():
             sprites.make_group('nyloncollarsextra', (a, 2),
                                f'collarsextra{i}',
                                sprites_y=2)
+        for a, i in enumerate([
+            "CRIMSONHAT", "BLUEHAT", "YELLOWHAT", "CYANHAT", "REDHAT",
+            "LIMEHAT"
+        ]):
+            sprites.make_group('piratehats', (a, 0), f'collars{i}')
+            sprites.make_group('piratehatsextra', (a, 0),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(
+                ["GREENHAT", "RAINBOWHAT", "BLACKHAT", "GULLHAT", "WHITEHAT"]):
+            sprites.make_group('piratehats', (a, 1), f'collars{i}')
+            sprites.make_group('piratehatsextra', (a, 1),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(["PINKHAT", "PURPLEHAT", "FLAMINGOHAT", "INDIGOHAT"]):
+            sprites.make_group('piratehats', (a, 2), f'collars{i}')
+            sprites.make_group('piratehatsextra', (a, 2),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate([
+            "CRIMSONBANDANA", "BLUEBANDANA", "YELLOWBANDANA", "CYANBANDANA", "REDBANDANA",
+            "LIMEBANDANA"
+        ]):
+            sprites.make_group('bandanas', (a, 0), f'collars{i}')
+            sprites.make_group('bandanasextra', (a, 0),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(
+                ["GREENBANDANA", "RAINBOWBANDANA", "BLACKBANDANA", "STRIPEDBANDANA", "WHITEBANDANA"]):
+            sprites.make_group('bandanas', (a, 1), f'collars{i}')
+            sprites.make_group('bandanasextra', (a, 1),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(["MAGENTABANDANA", "PURPLEBANDANA", "PINKBANDANA", "INDIGOBANDANA"]):
+            sprites.make_group('bandanas', (a, 2), f'collars{i}')
+            sprites.make_group('bandanasextra', (a, 2),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate([
+            "CRIMSONSKULL", "BLUESKULL", "YELLOWSKULL", "CYANSKULL", "REDSKULL",
+            "LIMESKULL"
+        ]):
+            sprites.make_group('skullbandanas', (a, 0), f'collars{i}')
+            sprites.make_group('skullbandanasextra', (a, 0),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(
+                ["GREENSKULL", "RAINBOWSKULL", "BLACKSKULL", "STRIPEDSKULL", "WHITESKULL"]):
+            sprites.make_group('skullbandanas', (a, 1), f'collars{i}')
+            sprites.make_group('skullbandanasextra', (a, 1),
+                               f'collarsextra{i}',
+                               sprites_y=2)
+        for a, i in enumerate(["MAGENTASKULL", "PURPLESKULL", "PINKSKULL", "INDIGOSKULL"]):
+            sprites.make_group('skullbandanas', (a, 2), f'collars{i}')
+            sprites.make_group('skullbandanasextra', (a, 2),
+                               f'collarsextra{i}',
+                               sprites_y=2)
 
 
 sprites = Sprites(50)
 #tiles = Sprites(64)
 
 for x in [
-    'lineart', 'singlecolours', 'speckledcolours', 'tabbycolours',
-    'whitepatches', 'eyes', 'singleextra', 'tabbyextra', 'eyes2',
+    'lineart', 'singlecolours', 'speckledcolours', 'tabbycolours', 'tropicalcolours',
+    'whitepatches', 'eyes', 'singleextra', 'tabbyextra', 'tropicalextra', 'eyes2',
     'speckledextra', 'whiteextra', 'eyesextra', 'eyes2extra', 'skin',
     'skinextra', 'scars', 'scarsextra', 'whitenewextra', 'whitepatchesnew',
     'scarsdark', 'scarsdarkextra', 'collars', 'collarsextra', 'nyloncollars', 'nyloncollarsextra',
+    'piratehats', 'piratehatsextra', 'bandanas', 'bandanasextra', 'skullbandanas', 'skullbandanasextra',
     'bellcollars', 'bellcollarsextra', 'bowcollars', 'bowcollarsextra',
     'speckledcolours2', 'speckledextra2', 'tabbycolours2', 'tabbyextra2',
     'rosettecolours', 'rosetteextra', 'smokecolours', 'smokeextra', 'tickedcolours', 'tickedextra',
@@ -402,6 +460,16 @@ for a, i in enumerate(['PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'CREAM'])
 for a, i in enumerate(['LIGHTBROWN', 'BROWN', 'DARKBROWN', 'BLACK']):
     sprites.make_group('tabbycolours', (a, 2), f'tabby{i}')
     sprites.make_group('tabbyextra', (a, 2), f'tabbyextra{i}', sprites_y=2)
+    # tropical
+for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST']):
+    sprites.make_group('tropicalcolours', (a, 0), f'tropical{i}')
+    sprites.make_group('tropicalextra', (a, 0), f'tropicalextra{i}', sprites_y=2)
+for a, i in enumerate(['PALEGINGER', 'GOLDEN', 'GINGER', 'DARKGINGER', 'CREAM']):
+    sprites.make_group('tropicalcolours', (a, 1), f'tropical{i}')
+    sprites.make_group('tropicalextra', (a, 1), f'tropicalextra{i}', sprites_y=2)
+for a, i in enumerate(['LIGHTBROWN', 'BROWN', 'DARKBROWN', 'BLACK']):
+    sprites.make_group('tropicalcolours', (a, 2), f'tropical{i}')
+    sprites.make_group('tropicalextra', (a, 2), f'tropicalextra{i}', sprites_y=2)
 # marbled
 for a, i in enumerate(['WHITE', 'PALEGREY', 'SILVER', 'GREY', 'DARKGREY', 'GHOST']):
     sprites.make_group('tabbycolours2', (a, 0), f'marbled{i}')

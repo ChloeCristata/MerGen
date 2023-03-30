@@ -8,7 +8,7 @@
             "Is resting on a fence",
             "Almost forgot the way home",
             "Was taken to the Cutter recently",
-            "Is looking at the forest, daydreaming about hunting a mouse",
+            "Is looking at a river, daydreaming about catching a fish",
             "Is hunting for a gift for their Twoleg",
             "Failed to catch prey with their poor crouch",
             "Is running away from a Clan cat",
@@ -60,10 +60,10 @@
             "Can't seem to scratch a certain spot on their neck thanks to their collar"
         ],
         "kitten": [
-            "Is currently trying to figure out how to catch a bird"
+            "Is currently trying to figure out how to catch a fish"
         ],
         "adolescent": [
-            "Is currently trying to figure out how to catch a bird",
+            "Is currently trying to figure out how to catch a fish",
             "Is hogging the bed from their siblings",
             "Thinks their new collar is uncomfortable",
             "Is playing with a new toy their Twoleg got them"
@@ -109,6 +109,7 @@
             "Caught a particularly large bird",
             "Caught a particularly large squirrel",
             "Caught a particularly large rabbit",
+            "Caught a particularly large fish",
             "Is humming a tune",
             "Got chased off by a border patrol recently",
             "Heard some strange stories about starry ancestors living in the sky",
@@ -132,12 +133,13 @@
             
         ],
         "kitten": [
-            "Is currently trying to figure out how to catch a bird"
+            "Is currently trying to figure out how to catch a fish"
         ],
         "adolescent": [
             "Is currently trying to figure out how to catch a bird",
             "Is currently trying to figure out how to catch a squirrel",
             "Is currently trying to figure out how to catch a rabbit",
+            "Is currently trying to figure out how to catch a fish",
             "Is missing their parents",
             "Regrets missing an easy catch",
             "Learned how slippery the edge of a river can be the hard way",
@@ -199,7 +201,7 @@
             "Wishes they were in a warm nest"
         ],
         "kitten": [
-            "Is currently trying to figure out how to catch a bird"
+            "Is currently trying to figure out how to catch a fish"
         ],
         "adolescent": [
             "Is setting up a pile of thorns to catch a cat off guard",
@@ -273,8 +275,8 @@
             "Is scared that they will never be found"
         ],
         "kitten": [
-            "Misses playing moss ball",
-            "Is looking desperately for their mother"
+            "Misses playing kelpball",
+            "Is looking desperately for their parent"
         ],
         "apprentice": [
             "Is missing their mentor's guidance",

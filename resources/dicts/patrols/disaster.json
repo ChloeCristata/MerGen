@@ -242,7 +242,7 @@
     "success_text": [
             "It's just an odd loner singing to themselves. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
             "It's just an odd loner singing to themselves. When they see the patrol they invite them to sing too. The patrol politely declines and continues on their patrol.",
-            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for their life.",
+            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, fleeing for their life.",
             "s_c has a bad feeling about this. And maybe they're being too cautious - but then they pick up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety."
     ],
     "fail_text": [
@@ -704,7 +704,7 @@
     "success_text": [
             "It's just an odd loner singing to themselves. r_c greets them, and as the loner isn't inside c_n territory, it's a polite interaction without any hostility.",
             "It's just an odd loner singing to themselves. When they see the patrol they invite them to sing, too. The patrol politely declines, but compliments the loner's songs.",
-            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, running for their life.",
+            "s_c walks into an ambush by a group of rogues. It's only by the grace of StarClan that s_c has the fighting skill and confidence to escape, fleeing for their life.",
             "s_c has a bad feeling about this. And maybe they're being too cautious - but then they pick up on the scent of strange cats around the Twoleg den. Forewarned, s_c retreats to safety."
     ],
     "fail_text": [
@@ -804,7 +804,7 @@
             "The cats leap forward, dashing to the other side of the beach and up onto the rocks. They make it in time to watch the beach get lost under a tide of water from inland.",
             null,
             "s_c shouts to get back! The patrol scrambles back the way they came and watches the beach disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. Your cats pounce on the opportunity to scavenge.",
-            "s_c shrieks at the strange sound, paws digging into the sand as they turn and run for home. The rest of the patrol yowls at them to stop, running after them, but s_c is proven right when the beach disappears under a flood of water from inland. They've saved them all."
+            "s_c shrieks at the strange sound, paws digging into the sand as they turn and rush for home. The rest of the patrol yowls at them to stop, racing after them, but s_c is proven right when the beach disappears under a flood of water from inland. They've saved them all."
     ],
     "fail_text": [
             null,
@@ -930,7 +930,7 @@
         "The cats leap forward, dashing to the other side of the bog and up into the trees. They make it in time to watch the swamp get lost under a tide of water from inland.",
         null,
         "s_c shouts to get back! The patrol scrambles back the way they came and watches the swamp disappear under a flood of water. It leaves behind a changed landscape, tons of debris - and a large dead sheep. Your cats pounce on the opportunity to scavenge.",
-        "s_c shrieks at the strange sound, paws digging into the mud as they turn and run for home. The rest of the patrol yowls at them to stop, running after them, but s_c is proven right when the swamp disappears under a flood of water from inland. They've saved them all."
+        "s_c shrieks at the strange sound, paws digging into the mud as they turn and rush for home. The rest of the patrol yowls at them to stop, racing after them, but s_c is proven right when the swamp disappears under a flood of water from inland. They've saved them all."
     ],
     "fail_text": [
         null,
@@ -967,7 +967,7 @@
     "success_text": [
         "The patrol descends into battle without a second thought, eventually driving the rogues away.",
         null,
-        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and flee.",
         "s_c revels in the battle, leaping into the fray with their teeth bared and claws ready. The rogues are quickly driven away by the patrol."
     ],
     "fail_text": [
@@ -1000,7 +1000,7 @@
     "success_text": [
         "The patrol descends into battle without a second thought, easily driving the rogues away as they use their knowledge of the rocky terrain to their advantage.",
         null,
-        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and flee.",
         "s_c revels in the battle, leaping into the fray with their teeth bared and claws ready. The rogues are quickly driven away by the patrol."
     ],
     "fail_text": [
@@ -1033,7 +1033,7 @@
     "success_text": [
         "The patrol descends into battle without a second thought, eventually driving the rogues away.",
         null,
-        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and flee.",
         "s_c revels in the battle, leaping into the fray with their teeth bared and claws ready. The rogues are quickly driven away by the patrol."
     ],
     "fail_text": [
@@ -1066,7 +1066,7 @@
     "success_text": [
         "The patrol descends into battle without a second thought, eventually driving the rogues away.",
         null,
-        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and run.",
+        "s_c immediately leaps to protect their Clanmates, their ferocity in battle quickly terrifying the rogues. Realizing that they've sorely underestimated the Clan cats, the rogues turn tail and flee.",
         "s_c revels in the battle, leaping into the fray with their teeth bared and claws ready. The rogues are quickly driven away by the patrol."
     ],
     "fail_text": [

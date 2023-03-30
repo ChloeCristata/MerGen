@@ -127,8 +127,8 @@
     "antagonize_fail_text": null,
     "history_text": [
             null,
-            "This cat was drowned by floodwaters.",
-            "drowned in floodwaters"
+            "This cat died by floodwaters.",
+            "died in floodwaters"
     ]
 },
 {
@@ -149,7 +149,7 @@
     "fail_text": [
             null,
             null,
-            "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away. p_l yowls out a warning, and most of the patrol are able to react quickly, striking out strongly for passing pieces of driftwood, but r_c doesn't make it, sinking beneath the water.",
+            "There is a downpour and a sudden flood from the overflowing river sweeps all of the cats in the patrol away. p_l yowls out a warning, and most of the patrol are able to react quickly, striking out strongly for passing pieces of driftwood, but r_c doesn't make it, sinking beneath the turbulent water.",
             null
     ],
     "win_skills": ["very smart", "extremely smart"],
@@ -160,15 +160,15 @@
     "antagonize_fail_text": null,
     "history_text": [
             null,
-            "r_c was drowned by floodwaters.",
-            "drowned in floodwaters"
+            "r_c died by floodwaters.",
+            "died in floodwaters"
     ]
 },
 {
     "patrol_id": "bch_bord_flashflood3",
     "biome": "beach",
     "season": "Any",
-    "tags": ["border", "death", "blunt_force_injury", "water in their lungs", "injury", "no_body"],
+    "tags": ["border", "death", "blunt_force_injury", "sand in their gills", "injury", "no_body"],
     "intro_text": "There are dark clouds in the horizon and r_c wonders if they should continue.",
     "decline_text": "Your patrol decides to head back early.",
     "chance_of_success": 60,
@@ -193,15 +193,15 @@
     "antagonize_fail_text": null,
     "history_text": [
             "r_c was injured in a flood.",
-            "r_c was drowned by floodwaters.",
-            "drowned in floodwaters"
+            "r_c died by floodwaters.",
+            "died in floodwaters"
     ]
 },
 {
     "patrol_id": "bch_bord_flashflood4",
     "biome": "beach",
     "season": "Any",
-    "tags": ["border", "blunt_force_injury", "water in their lungs", "injury"],
+    "tags": ["border", "blunt_force_injury", "sand in their gills", "injury"],
     "intro_text": "There are dark clouds in the horizon and r_c wonders if they should continue.",
     "decline_text": "Your patrol decides to head back early.",
     "chance_of_success": 60,

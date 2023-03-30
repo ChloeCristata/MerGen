@@ -98,11 +98,11 @@
 
         ]
     },
-    "water in their lungs": {
+    "sand in their gills": {
         "raspy lungs": [
-            "r_c put a bunch of fragrant herbs under m_c's nose, hoping the scent will help the rasp in their throat they've had since inhaling water, unfortunately it seems this rasp may never leave.",
-            "The damage to m_c's lungs is permanent and r_c gives them strict instructions about not overexerting themselves.",
-            "Ever since they almost drowned, m_c's lungs haven't felt right."
+            "r_c put a bunch of fragrant herbs under m_c's nose, hoping the scent will help the rasp in their throat they've had since inhaling sand, unfortunately it seems this rasp may never leave.",
+            "The damage to m_c's gills is permanent and r_c gives them strict instructions about not overexerting themselves.",
+            "Ever since they inhaled all that sand, m_c's gills haven't felt right."
 
         ]
     },
